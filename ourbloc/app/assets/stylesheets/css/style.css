@@ -112,6 +112,14 @@ h2 {
     line-height: 48px;
 }
 
+.section-content {
+  display:none;
+}
+
+.section-content.active {
+  display:block;
+}
+
 /*.side-nav {
   position: fixed;
   width: 200px;
